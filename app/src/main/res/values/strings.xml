@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assessment</string>
+    <string name="favProduct">favProduct</string>
+    <string name="Data">data</string>
+    <string name="jsonData">jsonData</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="successfully_load">Successfully load the data</string>
+    <string name="fail_load">Failed to load the data</string>
+    <string name="data_loading">Loading...</string>
+</resources>
