@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.assessment.databinding.ActivityMainBinding
-import com.example.assessment.fragment.FragmentFav
+import com.example.assessment.fragment.FragmentFavourite
 import com.example.assessment.fragment.FragmentList
 import com.example.assessment.retrofit.AppCreator
 import com.example.assessment.retrofit.Status
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         args.putString(getString(R.string.jsonData), json)
         firstFragment.arguments = args
 
-        val secondFragment = FragmentFav()
+        val secondFragment = FragmentFavourite()
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         setCurrentFragment(firstFragment)
 
